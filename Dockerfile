@@ -1,6 +1,6 @@
 # You can change this base image to anything else
 # But make sure to use the correct version of Java
-FROM arm64v8/alpine:latest
+FROM FROM eclipse-temurin:21-jdk-alpine
 
 # Simply the artifact path
 ARG artifact=target/spring-boot-web.jar
